@@ -45,6 +45,10 @@
   padding: 15px;
   color: #000000;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .stopwatch_container h2 {
   margin: 0;
@@ -56,6 +60,7 @@
   font-weight: bold;
   margin: 0 0 5px 0;
   padding: 0 0 15px 0;
+  align-self: flex-start;
 }
 
 .watch_text span {
@@ -70,6 +75,7 @@
   padding: 5px 0 0 0;
 }
 .btn button {
+  cursor: pointer;
   padding: 5px 15px;
   border: none;
   outline: none;
@@ -77,4 +83,8 @@
   text-align: center;
   background-color: #800080;
   color: #ffffff;
+}
+
+.btn button:hover {
+  background-color: #e506e5;
 }
