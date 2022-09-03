@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 .App {
   text-align: center;
 }
@@ -38,8 +40,11 @@
 }
 
 .stopwatch_container {
-  background-color: #32508b;
+  font-family: "Bebas Neue", cursive;
+  background-color: #ffffff;
   padding: 15px;
+  color: #000000;
+  margin: 0 auto;
 }
 .stopwatch_container h2 {
   margin: 0;
@@ -50,10 +55,26 @@
   text-transform: uppercase;
   font-weight: bold;
   margin: 0 0 5px 0;
+  padding: 0 0 15px 0;
 }
 
 .watch_text span {
   margin: 0.4px;
-  padding: 5px;
-  border: 2px solid black;
+  padding: 20px;
+  border: 0.1px solid #800080;
+  font-size: 2rem;
+}
+
+.btn {
+  margin: -5px 0 0 0;
+  padding: 5px 0 0 0;
+}
+.btn button {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  margin: 0 2px 0 0;
+  text-align: center;
+  background-color: #800080;
+  color: #ffffff;
 }

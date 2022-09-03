@@ -21,11 +21,13 @@ const StopWatch = () => {
   return (
     <div className="stopwatch_container">
       <p className="text">Stopwatch</p>
-      <div className="time">
-        <Timer time={time} />
-      </div>
-      <div className="buttons">
-        <Buttons setRunning={setRunning} setTime={setTime} />
+      <div>
+        <div className="time">
+          <Timer time={time} />
+        </div>
+        <div className="buttons">
+          <Buttons setRunning={setRunning} setTime={setTime} />
+        </div>
       </div>
     </div>
   );
