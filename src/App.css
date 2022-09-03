@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.stopwatch_container {
+  background-color: #32508b;
+  padding: 15px;
+}
+.stopwatch_container h2 {
+  margin: 0;
+}
+
+.text {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.watch_text span {
+  margin: 0.4px;
+  padding: 5px;
+  border: 2px solid black;
+}

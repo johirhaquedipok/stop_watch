@@ -19,9 +19,12 @@ const StopWatch = () => {
   }, [running]);
 
   return (
-    <div>
-      <div className="buttons">
+    <div className="stopwatch_container">
+      <p className="text">Stopwatch</p>
+      <div className="time">
         <Timer time={time} />
+      </div>
+      <div className="buttons">
         <Buttons setRunning={setRunning} setTime={setTime} />
       </div>
     </div>
